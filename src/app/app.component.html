@@ -1,0 +1,46 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<body>
+
+<div style="text-align:center">
+  
+
+
+
+  <h1 class="myThought">My Thoughts</h1>
+
+  <p>&nbsp;</p>
+
+<button (click)="toggleForm()" #hideForm >New Thought</button>
+
+<p>&nbsp;</p>
+
+<!-- POST LIST -->
+
+<div class="postList">
+  <ul>  
+    <app-post *ngFor='let posting of postArray' [post]='posting'> </app-post> 
+  </ul>
+</div>
+
+<p>&nbsp;</p>
+  <!-- <hr> -->
+
+  <!-- POST FORM -->
+  <app-postForm *ngIf="show" (submitted)='onSubmit($event)' #children></app-postForm>
+
+  
+
+
+  <p>&nbsp;</p>
+<!-- <hr> -->
+  <p>&nbsp;</p>
+
+  
+  
+</div>
+
+
+
+</body>
+<!-- <app-trial [person]="person" (changed)="onChanged($event)"></app-trial> -->

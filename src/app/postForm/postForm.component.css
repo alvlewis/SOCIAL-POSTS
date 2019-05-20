@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ;
+}
+
+
+
+div {   
+    
+    border: solid black 1px;   
+    width: 70%;
+    background-color: dodgerblue;
+    border-radius: 10px;
+
+}
+
+input {
+    width: 60%;
+}
+
+button {
+    width: 60%;
+}
+
+.newPost {
+    height: 200px;
+    border-radius: 10px;
+    padding-top: 0px;
+}

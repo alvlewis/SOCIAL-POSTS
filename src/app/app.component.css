@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@font-face {
+font-family: waltograph;
+src: url(\_FONT_waltograph\waltographUI.ttf);
+}
+
+h1 {
+                    font-family: waltograph;
+                  }
+
+body {        
+    padding-left: 0px;
+    padding-right: 0px;    
+    margin-left: 0px;    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px black;
+}
+
+
+.postList {
+    border: solid black 1px;
+}
+
+.myThought {
+    color: dodgerblue;
+}

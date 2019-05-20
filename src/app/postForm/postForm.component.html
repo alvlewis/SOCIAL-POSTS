@@ -1,0 +1,34 @@
+<html *ngIf="showForm">     <!-- ngIf -->
+
+
+
+<body id="" > 
+
+<div class="formContainer">
+
+<p>Title</p>
+
+
+<input type="text" [(ngModel)]='newTitle' placeholder="Post title">
+
+
+<p>Thought</p>
+
+
+<p><input class="newPost" type="text" [(ngModel)]='newPost'></p>
+
+
+
+<button (click)="onSubmit()" >Add Post</button>
+<p></p>
+
+
+  
+
+
+
+</div>
+
+</body>
+
+</html>   <!-- ngIf -->
